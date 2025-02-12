@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10%;
+    background-color:rgba(226, 219, 219, 0.658);
+}
+nav ul, .pro-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+nav ul li a, .pro-2 ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+    transition: all 1s;
+}
+nav button {
+    border: none;
+    background-color: purple;
+    border-radius: 100px;
+    padding: 8px 25px;
+}
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+nav button a i{
+    margin-right: 5px;
+}
+nav ul li :hover{
+    color: purple;
+}
+.pro-2 p{
+    font-size: 1em;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 8%;
+    background-color: lightgrey;
+}
+main{
+    background-color: purple;
+    display: flex;
+}
+.marquee{
+    background-color: purple;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0.7em 0;
+    font-family: sans-serif;
+}
+.wema-proposal div img{
+    width: 50px;
+}
+.wema-proposal{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    background-color: white;
+    padding: 2.5em 0;
+    align-items: center;
+}
+.wema-proposal div{
+    background-color: #fff;
+    padding: 1.5em;
+    box-shadow: 0 3px 9px gray;
+    text-align: center;
+    border: 5px;
+    transition: .3s ease-out;
+}
+.wema-proposal div:hover{
+    transform: translateY(+10px);
+    cursor: pointer;
+    color: purple;
+}
+.wema-proposaldiv p{
+    color: grey;
+    margin-top: 10px;
+}
+.experience-individuality{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.experience-individuality div{
+    width: 40%;
+}
+.experience-individuality div:nth-child(1) p:nth-child(2){
+    color: purple;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.experience-individuality div:first-child h2{
+    font-size: 2em;
+    width: 80%;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.experience-individuality div:first-child p:nth-child(4){
+    font-size: 1.1em;
+    margin: 10px 0 2em 0;
+    /* top right bottom left */
+}
+.experience-individuality div:first-child p:last-child a{
+    background-color: 
+    purple;
+    padding: 11px 27px;
+    font-size:1.2em ;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+.experience-individuality div:first-child p:last-child a i{
+    margin-left: 5px;
+}
+.experience-individuality div:first-child p:last-child{
+    transition: .2s ease-in;
+}
+.experience-individuality div:first-child p:last-child:hover{
+    transform: translateY(15px);
+}
+.experience-individuality p a{
+    text-decoration: none;
+}
+.elevate-business{
+    background-color: white;
+    padding: 2.5em 10%;
+}
+.elevate-business header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+.elevate-business header p:nth-child(1){
+    font-size: 1.1em;
+}
+.elevate-business header h2 {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.elevate-business header p:nth-child(3){
+    width: 50%;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.elevate-business-inner section{
+    background-color: white;
+    box-shadow: 0 0 0 grey;
+    width: 30%;
+    padding: 2em;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    transition: 2s ease-out
+}
+.elevate-business-inner section:hover{
+    transform: translateY(+20px);
+}
+
+.elevate-business-inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 2em 0;
+}
+.elevate-business-inner p a{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+.partner{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+div .sme{
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* height: 300px; */
+    width: 40%;
+
+}
+
